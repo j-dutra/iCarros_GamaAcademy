@@ -1,15 +1,13 @@
 :root {
     box-sizing: border-box;
-
     margin: 0;
     padding: 0;
-
     font-size: 62.5%;
 }
 
 * {
     text-decoration: none;
-    font-style: none;
+    list-style: none;
     color: #ffffff;
 }
 
@@ -101,8 +99,58 @@ section {
     align-items: flex-start;
 }
 
+.logos a {
+    width: 86px;
+    height: 48px;
+    opacity: 0.4;
+}
+
 .features {
     height: 52.4rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.features p {
+    width: 37.6rem;
+}
+
+.features-one {
+    width: 50.4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-column-left {
+    width: 41.6rem;
+    height: 36.8rem;
+}
+
+.features-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-twree {
+    width: 50.4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-column-right {
+    width: 41.6rem;
+    height: 36.8rem;
 }
 
 .latest-cars {
