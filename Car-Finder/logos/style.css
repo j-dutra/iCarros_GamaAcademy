@@ -20,13 +20,10 @@ body {
     background: #1F1B2D;
 }
 
-section {
-    width: 80%;
-    margin: auto;
-}
-
 .logos {
     /* Auto layout */
+    max-width: 1296px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,13 +34,13 @@ section {
     gap: 2.4rem;    
 }
 
-.logo a {
+.logos a {
     width: 8.6rem;
     height: 4.8rem;
 
     opacity: 0.4;
 }
 
-a:hover{
+.logos a:hover{
     color: #fff;
 }
